@@ -1,0 +1,28 @@
+{
+  "name": "sprint-11_mongoose-atlas-clase",
+  "version": "1.0.0",
+  "description": "Este es un proyecto básico que utiliza Mongoose para realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en una base de datos MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martabosquet/mongoose-atlas-clase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Martabosquet/mongoose-atlas-clase/issues"
+  },
+  "homepage": "https://github.com/Martabosquet/mongoose-atlas-clase#readme",
+  "dependencies": {
+    "dotenv": "17.4.2",
+    "express": "5.2.1",
+    "mongodb": "7.3.0",
+    "mongoose": "9.7.0"
+  }
+}
